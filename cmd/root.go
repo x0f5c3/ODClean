@@ -10,14 +10,9 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "cli-template",
-	Short: "This cli template shows the date and time in the terminal",
-	Long: `This is a template CLI application, which can be used as a boilerplate for awesome CLI tools written in Go.
-This template prints the date or time to the terminal.`,
-	Example: `cli-template date
-cli-template date --format 20060102
-cli-template time
-cli-template time --live`,
+	Use:   "ODClean",
+	Short: "Clean up your OneDrive",
+	Example: "ODClean [path to drive]"
 	Version: "v0.0.1", // <---VERSION---> Updating this version, will also create a new GitHub release.
 	// Uncomment the following lines if your bare application has an action associated with it:
 	// RunE: func(cmd *cobra.Command, args []string) error {
